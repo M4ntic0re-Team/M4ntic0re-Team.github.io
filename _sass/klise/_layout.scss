@@ -183,7 +183,7 @@
 .author {
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
-  text-align: center;
+  text-align: left;
 
   @include media-query($on-mobile) {
     margin-bottom: 3em;
