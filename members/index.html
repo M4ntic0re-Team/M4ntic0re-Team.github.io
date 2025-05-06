@@ -13,6 +13,84 @@ title: members
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{{ page.title }}</title>
 </head>
+<style>
+  body {
+    font-family: sans-serif;
+    background: #1d1d20;/*url('./members-background.png') no-repeat center center fixed;*/
+    background-size: cover;
+    margin: 2rem;
+    text-align: center;
+    color: #eee;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem; /* space between teams */
+  }
+
+  .member {
+    text-align: center;
+    max-width: 160px;
+    padding: 1.5rem 1rem;
+    /*background: rgba(59, 57, 57, 0.429); /* darker semi-transparent */
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .member img.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+
+  .player {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .skills {
+    font-size: 0.85rem;
+    color: #bbb;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+
+  .bio {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttons a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+    vertical-align: middle;
+    filter: brightness(0.85);
+  }
+
+  @media (max-width: 600px) {
+    .team {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .member {
+      max-width: 90%;
+    }
+  }
+</style>
 
 <body data-theme="{{ site.mode }}" class="notransition">
 
