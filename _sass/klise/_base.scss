@@ -277,7 +277,7 @@ blockquote {
 .wrapper {
   max-width: -webkit-calc(#{$narrow-size} - (#{$spacing-full} * 2));
   max-width: calc(#{$narrow-size} - (#{$spacing-full} * 2));
-  position: relative;
+  //position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-full;
