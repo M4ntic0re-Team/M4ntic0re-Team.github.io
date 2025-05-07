@@ -1,18 +1,17 @@
 ---
-title: Colophon
+title: About our team
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+We are M4ntic0re, a team of CTF players from around the world who compete together in online CTF competitions. We regularly publish writeups, share knowledge, and post articles related to cybersecurity and CTF challenges. If you'd like to join us, feel free to reach out through the links below!
 
-If you have a question about him or else, just send a letter to him.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+**contact us via**
 
-**may u needs ✨**
+- Discord: Afergan#9764
+- Email: M4ntic0reTeam@gmail.com
+- Github: github.com/M4ntic0re-Team
+- ctftime: ctftime.org/team/383090
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
